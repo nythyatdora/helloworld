@@ -1,0 +1,30 @@
+{
+	"name": "@nythyatdora/helloworld",
+	"version": "0.0.0-semantically-release",
+	"description": "learn how to write open source library",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --verbose",
+		"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+	},
+	"keywords": [
+		"helloWorld"
+	],
+	"author": "Thyatdora Ny <nythyatdora@gmail.com> (https://nythyatdora.dev/)",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nythyatdora/helloworld.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nythyatdora/helloworld/issues"
+	},
+	"homepage": "https://github.com/nythyatdora/helloworld#readme",
+	"devDependencies": {
+		"@semantic-release/changelog": "^6.0.1",
+		"@semantic-release/git": "^10.0.1",
+		"@types/jest": "27.4.1",
+		"jest": "27.5.1",
+		"semantic-release": "^19.0.2"
+	}
+}
