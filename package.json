@@ -14,7 +14,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/nythyatdora/helloworld.git"
+		"url": "git+https://github.com/nythyatdora/helloworld.git"
 	},
 	"bugs": {
 		"url": "https://github.com/nythyatdora/helloworld/issues"
